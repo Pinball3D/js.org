@@ -17,8 +17,11 @@ const search = window.location.search.slice(1, 20);
     window.onload = () => {
         if (!document.getElementById('_carbonads_projs')) {
             if (el = document.getElementById(el)) {
-                el.classList.add('blocked');
-                el.innerHTML = `<a href="https://namecheap.pxf.io/c/3149127/1184522/5618" target="_top" id="1184522"><img src="//a.impactradius-go.com/display-ad/5618-1184522" border="0" alt="" width="300" height="250"/></a><img height="0" width="0" src="https://namecheap.pxf.io/i/3149127/1184522/5618" style="position:absolute;visibility:hidden;" border="0" />`
+                var el_ = document.createElement("div");
+                el_.id = "cad";
+                el_.classList.add('blocked');
+                el_.innerHTML = `<a href="https://namecheap.pxf.io/c/3149127/1184522/5618" target="_top" id="1184522"><img src="//a.impactradius-go.com/display-ad/5618-1184522" border="0" alt="" width="300" height="250"/></a><img height="0" width="0" src="https://namecheap.pxf.io/i/3149127/1184522/5618" style="position:absolute;visibility:hidden;" border="0" />`
+                el.replaceWith(el_);
             }
         }
     }
