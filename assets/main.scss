@@ -217,11 +217,11 @@ footer {
   flex-direction: column;
   line-height: 1.4;
 
-  background-image: repeating-linear-gradient(0deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.2em, $txt 2.2em), repeating-linear-gradient(90deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.2em, $txt 2.2em),
-    repeating-linear-gradient(180deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.2em, $txt 2.2em), repeating-linear-gradient(270deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.2em, $txt 2.2em);
-  background-size: 4px 100%, 100% 4px, 4px 100%, 100% 4px;
-  background-position: 0 0, 0 0, 100% 0, 0 100%;
-  background-repeat: no-repeat;
+  //background-image: repeating-linear-gradient(0deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.2em, $txt 2.2em), repeating-linear-gradient(90deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.2em, $txt 2.2em),
+  //  repeating-linear-gradient(180deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.2em, $txt 2.2em), repeating-linear-gradient(270deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.2em, $txt 2.2em);
+  //background-size: 4px 100%, 100% 4px, 4px 100%, 100% 4px;
+  //background-position: 0 0, 0 0, 100% 0, 0 100%;
+  //background-repeat: no-repeat;
 
   //#cad-blocked {
   //  padding: 1em;
@@ -328,15 +328,15 @@ footer {
   #cad {
     width: 330px;
     height: 100px;
-    background-image: repeating-linear-gradient(0deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.4em, $txt 2.4em), repeating-linear-gradient(90deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.4em, $txt 2.4em),
-      repeating-linear-gradient(180deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.4em, $txt 2.4em), repeating-linear-gradient(270deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.4em, $txt 2.4em);
-    background-size: 4px 100%, 100% 4px, 4px 100%, 100% 4px;
+    //background-image: repeating-linear-gradient(0deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.4em, $txt 2.4em), repeating-linear-gradient(90deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.4em, $txt 2.4em),
+    //  repeating-linear-gradient(180deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.4em, $txt 2.4em), repeating-linear-gradient(270deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.4em, $txt 2.4em);
+    //background-size: 4px 100%, 100% 4px, 4px 100%, 100% 4px;
 
-    &.blocked {
-      //#cad-blocked {
-      //  display: block;
-      //}
-    }
+    //&.blocked {
+    //  #cad-blocked {
+    //    display: block;
+    //  }
+    //}
   }
 
   #carbonads {
@@ -419,10 +419,10 @@ footer {
     }
   }
 
-  @media only screen and (min-width: $break-m) {
-    #cad {
-      background-image: repeating-linear-gradient(0deg, $key, $key 1.4em, transparent 1.4em, transparent 2.2em, $key 2.2em), repeating-linear-gradient(90deg, $key, $key 1.4em, transparent 1.4em, transparent 2.2em, $key 2.2em),
-      repeating-linear-gradient(180deg, $key, $key 1.4em, transparent 1.4em, transparent 2.2em, $key 2.2em), repeating-linear-gradient(270deg, $key, $key 1.4em, transparent 1.4em, transparent 2.2em, $key 2.2em);
-    }
-  }
+  //@media only screen and (min-width: $break-m) {
+  //  #cad {
+  //    background-image: repeating-linear-gradient(0deg, $key, $key 1.4em, transparent 1.4em, transparent 2.2em, $key 2.2em), repeating-linear-gradient(90deg, $key, $key 1.4em, transparent 1.4em, transparent 2.2em, $key 2.2em),
+  //    repeating-linear-gradient(180deg, $key, $key 1.4em, transparent 1.4em, transparent 2.2em, $key 2.2em), repeating-linear-gradient(270deg, $key, $key 1.4em, transparent 1.4em, transparent 2.2em, $key 2.2em);
+  //  }
+  //}
 }
