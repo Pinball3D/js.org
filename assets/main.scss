@@ -201,7 +201,7 @@ footer {
     margin: 1em 1em 1em 0.7em;
   }
   p {
-    margin: 2em;
+    margin: 2.2em;
   }
 }
 
@@ -213,6 +213,7 @@ footer {
   font-weight: 600;
   display: flex;
   justify-content: center;
+  
   flex-direction: column;
   line-height: 1.4;
 
@@ -222,18 +223,24 @@ footer {
   background-position: 0 0, 0 0, 100% 0, 0 100%;
   background-repeat: no-repeat;
 
-  #cad-blocked {
-    padding: 1em;
-    font-size: 0.85em;
-    text-align: center;
-    display: none;
-  }
+  //#cad-blocked {
+  //  padding: 1em;
+  //  font-size: 0.85em;
+  //  text-align: center;
+  //  display: none;
+  //}
 
   &.blocked {
-    opacity: 0.5;
-    #cad-blocked {
-      display: block;
-    }
+    height:250px;
+    width: 300px;
+    line-height: 0;
+    z-index: -1;
+    float: none;
+    margin: auto;
+    //opacity: 0.5;
+    //#cad-blocked {
+    //  display: block;
+    //}
   }
 }
 
@@ -304,6 +311,7 @@ footer {
   #oc {
     display: inline-block;
   }
+
 }
 
 @media only screen and (min-width: $break-m) {
@@ -324,6 +332,12 @@ footer {
     background-image: repeating-linear-gradient(0deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.4em, $txt 2.4em), repeating-linear-gradient(90deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.4em, $txt 2.4em),
       repeating-linear-gradient(180deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.4em, $txt 2.4em), repeating-linear-gradient(270deg, $txt, $txt 1.4em, transparent 1.4em, transparent 2.4em, $txt 2.4em);
     background-size: 4px 100%, 100% 4px, 4px 100%, 100% 4px;
+
+    &.blocked {
+      //#cad-blocked {
+      //  display: block;
+      //}
+    }
   }
 
   #carbonads {

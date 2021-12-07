@@ -1,7 +1,7 @@
 @import "vars";
 
 p {
-    margin: 2em 0;
+  margin: 2em 0;
 }
 
 #typewriter {
@@ -62,7 +62,7 @@ section {
       -webkit-transition: all 0.3s;
       transition: all 0.3s;
       &:hover {
-        background: fade-out($txt, .8);
+        background: fade-out($txt, 0.8);
         color: $txt;
       }
     }
@@ -123,13 +123,18 @@ section {
   }
 }
 
-
 @media only screen and (min-width: $break_s) {
   #typewriter {
     font-size: 2em;
   }
 }
 
+@media only screen and (min-width: $break-m) {
+  #cad.blocked {
+    margin: -64px 0 10px 20px;
+    float: right;
+  }
+}
 
 @media only screen and (min-width: $break_l) {
   #typewriter {
@@ -161,7 +166,7 @@ section {
         border-color: $key;
 
         &:hover {
-          background: fade-out($key, .7);
+          background: fade-out($key, 0.7);
           color: $key;
         }
       }
